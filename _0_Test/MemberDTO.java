@@ -1,4 +1,4 @@
-package Test;
+package _0_Test;
 
 public class MemberDTO {
 	private String id = null;

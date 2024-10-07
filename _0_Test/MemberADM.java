@@ -1,4 +1,4 @@
-package Test;
+package _0_Test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -58,7 +58,7 @@ public class MemberADM {
 			pstmt.setString(1, m.getId());
 			pstmt.setString(2, m.getName());
 			pstmt.setInt(3, m.getAge());
-			// 실행 후 리턴값 가져오기ㄹㄹㄹㄹㄹㄹ
+			// 실행 후 리턴값 가져오기
 			int result = pstmt.executeUpdate();
 			if(result == 0) {
 				conn.rollback();
