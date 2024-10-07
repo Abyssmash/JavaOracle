@@ -58,7 +58,7 @@ public class MemberADM {
 			pstmt.setString(1, m.getId());
 			pstmt.setString(2, m.getName());
 			pstmt.setInt(3, m.getAge());
-			// 실행 후 리턴값 가져오기
+			// 실행 후 리턴값 가져오기ㄹㄹㄹㄹㄹㄹ
 			int result = pstmt.executeUpdate();
 			if(result == 0) {
 				conn.rollback();
